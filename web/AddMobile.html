@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Add mobile</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Add mobile</h1>
+        <a href="SearchStaff.jsp">Back to Search</a>
+        <form action="CoordinatorServlet">
+            Mobile ID <input type="text" value="" name="mobileId"><br/>
+            Description <input type="text" value="" name="description"><br/>
+            Price <input type="text" value="" name="price"><br/>
+            Name <input type="text" value="" name="mobileName"><br/>
+            Year <input type="number" value="" name="yearOfProduction"><br/>
+            Quantity <input type="number" value="" name="quantity"><br/>
+            Not sale <input type="checkbox" value="" name="notSale"><br/>
+            <input type="submit" name="action" value="ADD_MOBILE">
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Login</h1>
+        <form action="CoordinatorServlet" method="POST">
+            User Name <input type="text" name="userId" value="" pattern="^.{1,20}$" required><br>
+            Password <input type="password" name="password" value="" pattern="^\d+$" title="Password is an integer number" required><br>
+            <input type="reset" name="Reset">
+            <input type="submit" name="action" value="LOGIN">
+        </form>
+        
+    </body>
+</html>
